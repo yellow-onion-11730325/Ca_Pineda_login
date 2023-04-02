@@ -1,0 +1,85 @@
+html{
+	background-image:  url(https://cdn.pixabay.com/photo/2022/12/09/13/54/clouds-7645424_960_720.jpg);
+	background-size: cover;
+	color: #106939;
+}
+
+body{
+    min-height: 100vh;
+    display:flex; flex-direction:column; 
+    flex-direction: column;
+}
+
+#container{
+    background-color: #FFFFFF;
+    padding: auto;
+    margin: auto;
+    border: 1em solid #106939;
+}
+
+#functions {
+    border: solid 1em #106939;
+    width: 50%;
+    float: right;
+    margin: auto;
+    padding: auto;
+	background-color: #FFFFFF;
+    height: 90%;
+}
+
+input {
+    display: block;
+}
+input:focus{
+    background-color: #106939;
+    color: #FFFFFF;
+}
+
+footer{	
+	background-color: #106939;
+	padding: 0px 50px;
+	border: solid #106939 15px;
+	overflow: auto;
+	color: #FFD700;
+	height: 50px;
+	bottom: 20px;
+}
+
+#navlist {
+	position: relative;
+}
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+#navlist li, #navlist a {
+  height: 27px;
+  display: block;
+}
+#socmed_fb {
+    right: 0.25em;
+    width: 27px;
+    background: url('sprites/NicePng_social-icons-png_260596.png') -50px 0px;
+    float: right;
+  }
+  #socmed_fb a:hover {
+    background: url('sprites/NicePng_social-icons-png_260596.png') -50px -51px;
+  }
+  #socmed_fb a:active {
+      background: url('sprites/NicePng_social-icons-png_260596.png') -50px -100px;
+  }
+  #socmed_twt {
+    right: 1.5em;
+    width: 27px;
+    background: url('sprites/NicePng_social-icons-png_260596.png') 0px 0px;
+    float: right;
+  }
+  #socmed_twt a:hover {
+    background: url('sprites/NicePng_social-icons-png_260596.png') 0px -51px;
+  }
+  #socmed_twt a:active {
+      background: url('sprites/NicePng_social-icons-png_260596.png') 0px -100px;
+  }
